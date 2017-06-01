@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    width:1262px;
+    height:1450px ;
+    margin: 0 auto;
+    background: gray;
+}
+/*==========导航条==============*/
+.banner{
+    width: 100%;
+    height: 150px;
+    background: black;
+    margin: 0 auto;
+}
+.banner img{
+    position: relative;
+    top:25px;
+    left:170px;
+}
+.banner ul{
+    list-style: none;
+    color: white;
+    font-weight: bold;
+    float: right;
+}
+.banner ul li{
+    width: 75px;
+    height: 50px;
+    line-height: 50px;
+   display:inline-block;
+    border-right: 1px solid #212121;
+    padding:0 10px 0 10px ;
+    position: relative;
+    top:20px;
+    right: 150px;
+    text-align: center;
+}
+.banner ul li span{
+    color: #60B001;
+}
+/*===============内容====================*/
+.main{
+    width: 100%;
+    background: url("../img/content-bg.jpg");
+}
+.meau{
+    width: 980px;
+    height: 490px;
+    margin: 0 auto;
+    position: relative;
+    top:-60px;
+    background: url("../img/slider-bg.png");
+    overflow: hidden;
+    position: relative;
+}
+.meau ul {
+    width: 100px;
+    height: 350px;
+    list-style: none;
+    margin: 25px 0 0 25px;
+}
+.meau ul li{
+    width: 100px;
+    height: 70px;
+    margin-bottom: 20px;
+    border-radius: 30px 0 0 30px;
+    overflow: hidden;
+    background: #F4F5F7;
+}
+.meau ul li:hover{
+    background: url("../img/pagination-a.png");
+}
+.meau ul li span{
+    display: block;
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.meau ul li:nth-child(1) span{
+    background: #6EB902;
+}
+.meau ul li:nth-child(2) span{
+    background: #0FC4D0;
+}
+.meau ul li:nth-child(3) span{
+    background: #FE4E00;
+}
+.meau ul li:nth-child(4) span{
+    background: #FEAA00;
+}
+.m1{
+    width: 300px;
+    height: 431px;
+     position: absolute;
+     top: 0;
+     left: 100px;
+    z-index: 30;
+    margin: 25px 0 0 555px;
+    background-color: rgba(12,12,12,0.5);
+    border-radius: 0 20px 0 0;
+ }
+.meau .m1 img{
+    margin-left:260px ;
+    margin-top: 20px;
+}
+.meau .m1 h1{
+    color: #FFFFFF;
+    font-size: 45px;
+    margin-top: 40px;
+    text-align: center;
+}
+.meau .m1 span{
+    display: block;
+    color: #FFFFFF;
+    font-size: 20px;
+    text-align: center;
+}
+.meau .m1 p{
+    color: #FFFFD6;
+    text-align: center;
+    margin-top: 50px;
+}
+.meau .m1 button{
+    width: 150px;
+    height: 50px;
+    margin:20px 0 0 60px;
+}
+.meau1{
+    width: 830px;
+    height: 431px;
+    position: absolute;
+    top: 0;
+    left: 100px;
+    background: url("../img/slider-img1.jpg");
+    margin: 25px 0 0 25px;
+}
+.meau ul li img{
+    z-index: 30;
+    position: absolute;
+    top: 0;
+    left: 100px;
+    margin: 30px 0 0 25px;
+    display: none;
+}
+.meau ul li:hover img{
+    display: block;
+}
+.meau2{
+    width: 980px;
+    margin: 0 auto;
+    position: relative;
+    top:-60px;
+    overflow: hidden;
+}
+.meau2 h1{
+    text-align: center;
+}
+.meau2 .t1{
+    width: 260px;
+    height: 400px;
+    float: left;
+    margin-top: 20px;
+    line-height: 40px;
+}
+.meau2 .t1 p{
+    border-bottom: 1px solid #ECEDEE;
+    color: #b7b5b6;
+}
+.meau2 .t2{
+    width: 330px;
+    height: 400px;
+    float: left;
+    margin-left: 40px;
+    margin-top: 20px;
+
+}
+.meau2 .t2 p{
+    color: #b7b5b6;
+}
+.meau2 .t2 p span{
+    color: black;
+    text-decoration:underline;
+}
+.meau2 .t2 button{
+    width: 100px;
+    height: 40px;
+    margin-top: 30px;
+}
+.meau2 .t3{
+    width: 310px;
+    height: 400px;
+    float: left;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.meau2 .t3 img{
+    margin-right: 10px;
+}
+.meau2 .t3 p{
+    margin:10px 0 10px 30px;
+    color: #b7b5b6;
+}
+.meau2 .t3 p span{
+    color: black;
+    text-decoration: underline;
+}
+.meau2 .t3 button{
+    width: 100px;
+    height: 40px;
+    margin: 30px 0 0 30px;
+}
+/*==============尾部========================*/
+.footer{
+    width: 100%;
+    background: black;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.footer .f1 {
+    width: 260px;
+    height: 300px;
+    float: left;
+    margin-left: 140px;
+    margin-right: 40px;
+}
+.footer .f1 h2{
+    color: white;
+    margin-top: 30px;
+}
+.footer .f1 p{
+   font-size: 20px;
+    line-height: 50px;
+    border-bottom: 1px solid #202020;
+    color: darkgrey;
+}
+.footer .f1 p span{
+    margin-right: 15px;
+    position: relative;
+    top: 5px;
+}
+.footer .f1 p .pic1{
+     display: inline-block;
+     width: 20px;
+     height: 20px;
+     background: url("../img/social-icons.png");
+ }
+.footer .f1 p .pic2{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("../img/social-icons.png");
+    background-position: 0 -40px;
+}
+.footer .f1 p .pic3{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("../img/social-icons.png");
+    background-position: 0 -80px;
+}
+.footer .f1 p .pic4{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("../img/social-icons.png");
+    background-position: 0 -120px;
+}
+.footer .f2{
+    width: 330px;
+    height: 300px;
+    float: left;
+    margin-right: 40px;
+}
+.footer .f2 h2{
+    color: white;
+    margin-top: 30px;
+}
+.footer .f2 p{
+    color: darkgray;
+    margin-top: 15px;
+}
+.footer .f2 button{
+    width: 100px;
+    height: 40px;
+    margin: 30px 0 0 0px;
+}
+.footer .f3{
+    width: 370px;
+    height: 300px;
+    float: left;
+}
+.footer .f3 h2{
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.footer .f3 p{
+    line-height: 40px;
+    border-bottom: 1px solid #202020;
+}
+.footer .f3 .tupian{
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    background: url("../img/marker-1.png")no-repeat;
+    margin-right: 10px;
+}
+.footer .f3 p a{
+    color: white;
+}
+.footer .f3 p label{
+    color: darkgray;
+}
+.bottom{
+    width: 100%;
+    background: black;
+    border-top: 1px solid #202020;
+}
+.bottom p{
+    margin:30px 0 0 400px;
+    color: darkgray;
+}
+.bottom p span{
+    color: white;
+    text-decoration: underline;
+}
